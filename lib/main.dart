@@ -21,11 +21,12 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-          brightness: Brightness.dark,
-          primarySwatch: Colors.blue,
-          bottomNavigationBarTheme: const BottomNavigationBarThemeData(
-            selectedItemColor: Colors.white,
-          )),
+        brightness: Brightness.dark,
+        primarySwatch: Colors.blue,
+        bottomNavigationBarTheme: const BottomNavigationBarThemeData(
+          selectedItemColor: Colors.white,
+        ),
+      ),
       home: const YoutubePage(),
     );
   }
