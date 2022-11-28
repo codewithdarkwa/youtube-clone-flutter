@@ -68,7 +68,7 @@ class _Vid1State extends State<Vid1> {
                     horizontal: 8.0,
                   ),
                   child: Text(
-                    ' 300 views • 1 month ago',
+                    ' 400 views • 1 month ago',
                     style: TextStyle(
                       color: Colors.grey,
                     ),
